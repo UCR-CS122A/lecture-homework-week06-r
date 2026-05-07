@@ -174,6 +174,7 @@ Take a screenshot of your GDB session showing these commands and the resulting P
 **Modified Files:**
 * `src/start.s` (containing the intentionally broken code)
 * `assets/` (containing your QEMU and GDB screenshots)
+* `image0.bmp` (with your logo so it will compile on Gradescope)
 
 **Homework Template:**
 1.  Open `homework_template.docx`, answer the questions regarding your GDB observations (specifically: *What happened to the PC and why?*).
