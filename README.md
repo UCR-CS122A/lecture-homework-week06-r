@@ -37,7 +37,7 @@ This occurs because no image is included in the repository to act as your OS log
 Compile the project as you have done previously and run it using QEMU:
 
 ```bash
-qemu-system-arm -M versatilepb -m 128M -kernel build/timer.bin -serial mon:stdio
+qemu-system-arm -M versatilepb -m 128M -kernel build/keyboard.bin -serial mon:stdio
 ```
 
 ## The Keyboard Demo
@@ -88,7 +88,7 @@ cmake --build build
 Run QEMU with the `-s` (starts a gdbserver on TCP port 1234) and `-S` (freezes CPU at startup) flags:
 
 ```bash
-qemu-system-arm -M versatilepb -m 128M -kernel build/timer.bin -serial mon:stdio -s -S
+qemu-system-arm -M versatilepb -m 128M -kernel build/keyboard.bin -serial mon:stdio -s -S
 ```
 *Note: The QEMU window will appear black and frozen; this is expected.* It should look like:
 
