@@ -124,7 +124,7 @@ subroutine. The following GDB interaction shows this process:
 
 ```bash
 (gdb) break irq_handler
-Breakpoint 1 at 0x1001c: file /home/harve/cs122/homework/lecture-homework-week06-r/src/start.s, line 21.
+Breakpoint 1 at 0x1001c: file  /workspaces/lecture-homework-week06-r/src/start.s, line 21.
 (gdb) 
 ```
 
@@ -136,7 +136,7 @@ shows this process:
 (gdb) continue
 Continuing.
 
-Breakpoint 1, irq_handler () at /home/harve/cs122/homework/lecture-homework-week06-r/src/start.s:21
+Breakpoint 1, irq_handler () at  /workspaces/lecture-homework-week06-r/src/start.s:21
 21          sub lr, lr, #4
 (gdb) 
 ```
